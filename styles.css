@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    text-color-link: #387CBB;
+}
+
+header {
+    display: flex;
+    font-size: 1.25em;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+}
+
+header * {
+    display: inline;
+    height: 50px;
+}
+
+header ul {
+    padding: 0;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+section h2 {
+    font-size: 2.5em;
+}
+
+section h3 {
+    font-size: 1.5em;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+section {
+    height: 45vh;
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+}
+
+#top h1 {
+    font-size: 3.5em;
+    text-align: center;
+    margin-top: 200px;
+}
+
+#top h5 {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+#work {
+    margin-left: 100px;
+    margin-top: 250px;
+}
+
+#contact {
+    margin-left: 100px;
+}
+
+#contact h6 {
+    font-size: 1em;
+}
+
+#button {
+    margin-left: 100px;
+}
+
+.header-img {
+    align-self: center;
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+
+.top-bg {
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: -1;
+    width: 100vw;
+    height: 82%;
+    margin: 0;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 40px;
+}
+
+.card-container:hover {
+    width: 92%;
+    height: auto;
+}
+
+.card-image {
+    width: 280px;
+    height: auto;
+}
+
+.card-title {
+    margin: 0.75rem 0 0;
+}
+
+.card-description {
+    margin: 0.1rem 0 3rem;
+}
+
+.me-photo {
+    height: 40vh;
+    float: left;
+    margin-left: 200px;
+}
+
+.about-text {
+    line-height: 1.5em;
+    margin-top: 90px;
+    margin-left: 600px;
+    margin-bottom: 50px;
+}
+
+
+.work-examples {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 5%;
+    column-gap: 5%;
+    margin-top: 16px;
+}
+
+.form {
+    text-align: right;
+    margin-right: 100px;
+}

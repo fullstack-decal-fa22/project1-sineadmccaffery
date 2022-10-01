@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <meta name="author" content="Sinead Mccaffery">
+        <title>Sinead McCaffery</title>
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#top">Home</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="top">
+                <div class="section-inner">
+                    <img src="header-background.jpeg" alt="sinead" class="top-bg" draggable="false">
+                    <h1>Hi, I'm Sinead McCaffery.</h1>
+                    <h5>Scroll to learn more about me.</h5>
+                    
+                    <img src="me-photo.jpeg" alt="sinead" class="me-photo" draggable="false">
+                    <div class="about-text">
+                        <h2>About Me</h2>
+                        <p>I'm Sinead, a sophomore at UC Berkeley pursuing a degree in computer science. 
+                            I was born and raised in Sunnyvale, California, and now live in Berkeley.</p>
+                        <br>
+                        <h4>Hobbies</h4>
+                            Aside from coding and designing, I love playing with my dog, hiking, traveling, and trying new foods. 
+                            I connect with my Irish culture through my 15-year career as an Irish dancer, where I have compteted in regional, national, and world-level competitions.
+                            Catch me performing every year in the San Franscico St. Patrick's Day Parade!</p>
+                    </div>
+                </div>
+            </section>
+
+            <br>
+            <section id="work">
+                <div class="section-inner">
+                    <h2>Work</h2>
+                    <h3>Check out the projects I've worked on:</h3>
+                    <div class="work-examples">
+                        <div class="card-container">
+                            <img src="datagood.png" alt="datagood" class="card-image" draggable="false">
+                            <p class="card-title">Internal Project Developer</p>
+                            <p class="card-description">DataGood</p>
+                        </div>
+                        <div class="card-container">
+                            <img src="guitar.pbm" alt="icon" class="card-image" draggable="false">
+                            <p class="card-title">Guitar Hero / Deques</p>
+                            <p class="card-description">CS 61B Project</p>
+                        </div>
+                        <div class="card-container">
+                            <img src="2048.png" alt="icon" class="card-image" draggable="false">
+                            <p class="card-title">2048</p>
+                            <p class="card-description">CS 61B Project</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="button" margin-left=100px;>
+            <button onClick="alert('Thank you for visiting Sinead McCaffery\'s website!')">Click here for a surprise!</button>
+            </section>
+
+            <section id="contact">
+                <div class="section-inner">
+                    <h2>Contact</h2>
+                    <p> Email me at
+                        <a href="mailto:sineadamccaffery@gmail.com">sineadamccaffery@gmail.com</a>
+                        or connect with me on
+                        <a target="_blank" href="https://www.linkedin.com/in/sineadmccaffery/">LinkedIn.</a>
+                    </p>
+                </div>
+                <div class="form"></div>
+                    <h6>Send me a message:</h6>
+                    <br>
+                    <form>
+                        <label>Name:</label>
+                            <input type="text" id="name">
+                        <br>
+                        <br>
+                        <label>Email:</label>
+                            <input type="text" id="email">
+                        <br>
+                        <br>
+                        <input type="submit">
+                        <script>alert('Thank you for contacting me!')</script>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer>
+            © Copyright Sinead McCaffery, 2022
+        </footer>
+    </body>
+</html>
